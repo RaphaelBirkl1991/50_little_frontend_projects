@@ -1,0 +1,48 @@
+/* Body und HTML */
+body,
+html {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0c1016;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    font-family: "Roboto";
+    overflow: hidden;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 100%;
+    aspect-ratio: 10/6;
+    overflow: hidden;
+}
+
+.wrapper .text {
+    position: absolute;
+}
+
+.wrapper .image {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    aspect-ratio: 10/6;
+    display: grid;
+    place-items: center;
+    transform-origin: center -150%;
+    pointer-events: none;
+}
+
+.wrapper .image img {
+    width: 33%;
+    border-radius: 1rem;
+    transition: all 250ms ease-in-out;
+}

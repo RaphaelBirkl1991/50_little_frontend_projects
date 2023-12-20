@@ -1,0 +1,34 @@
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 0.5rem;
+  width: 70%;
+}
+
+.grid .grid-item {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  border: none;
+  background-color: grey;
+  transition: all 150ms ease-in-out;
+  font-size: 1rem;
+  border-radius: 1rem;
+}
+
+.grid .grid-item:hover {
+  transform: scale(1.1);
+}
+
+.grid .grid-item:active {
+  transform: scale(0.8);
+}
+
+.grid .grid-item:focus-visible,
+.grid .grid-item:focus {
+  outline-style: dashed;
+  outline-width: 0.2rem;
+  outline-color: red;
+  outline-offset: 0.5rem;
+  color: yellow;
+}
