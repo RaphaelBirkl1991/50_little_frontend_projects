@@ -1,6 +1,9 @@
+# 50  little frontend projects
+
+
 ![udemy-logo](screenshot_udemy_logo.png)
 
-# 50  little frontend projects
+
 
 ### This is a Udemy Course to sharpen HTML, CSS and JS skills as a sideline.
 
